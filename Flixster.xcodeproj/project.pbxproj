@@ -17,6 +17,9 @@
 		01659C2B26EAE6A90091E40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01659C2926EAE6A90091E40C /* LaunchScreen.storyboard */; };
 		01659C3626EAE6A90091E40C /* Unit1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01659C3526EAE6A90091E40C /* Unit1Tests.swift */; };
 		01659C4126EAE6AA0091E40C /* Unit1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01659C4026EAE6AA0091E40C /* Unit1UITests.swift */; };
+		01B28F7826F41B190027B892 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B28F7726F41B190027B892 /* MovieDetailsViewController.swift */; };
+		01B28F7A26F4F5F00027B892 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B28F7926F4F5F00027B892 /* MovieGridViewController.swift */; };
+		01B28F7C26F504BC0027B892 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B28F7B26F504BC0027B892 /* MovieGridCell.swift */; };
 		01C4F3536106AEE154557081 /* Pods_Unit1_Unit1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B58F18D473C853145D3DFE5 /* Pods_Unit1_Unit1UITests.framework */; };
 		18BB7642C264A5C649C86906 /* Pods_Unit1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30E8EB45C7DB4A7267B1B7 /* Pods_Unit1.framework */; };
 		FD7236AFA8A44E6A967F75CE /* Pods_Unit1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C1978A797DA57E7DCBA715 /* Pods_Unit1Tests.framework */; };
@@ -41,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0124016126EBBFBE00F673C2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		01659C1B26EAE6A30091E40C /* Unit1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01659C1B26EAE6A30091E40C /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01659C1E26EAE6A30091E40C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01659C2026EAE6A30091E40C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01659C2226EAE6A30091E40C /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
@@ -49,12 +52,15 @@
 		01659C2726EAE6A90091E40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01659C2A26EAE6A90091E40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01659C2C26EAE6A90091E40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01659C3126EAE6A90091E40C /* Unit1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unit1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01659C3126EAE6A90091E40C /* FlixsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01659C3526EAE6A90091E40C /* Unit1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit1Tests.swift; sourceTree = "<group>"; };
 		01659C3726EAE6A90091E40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01659C3C26EAE6AA0091E40C /* Unit1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unit1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01659C3C26EAE6AA0091E40C /* FlixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01659C4026EAE6AA0091E40C /* Unit1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit1UITests.swift; sourceTree = "<group>"; };
 		01659C4226EAE6AA0091E40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B28F7726F41B190027B892 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		01B28F7926F4F5F00027B892 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		01B28F7B26F504BC0027B892 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		192FC8414C6DDDE72AD09646 /* Pods-Unit1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Unit1Tests/Pods-Unit1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D30E8EB45C7DB4A7267B1B7 /* Pods_Unit1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C1978A797DA57E7DCBA715 /* Pods_Unit1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,9 +116,9 @@
 		01659C1C26EAE6A30091E40C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01659C1B26EAE6A30091E40C /* Unit1.app */,
-				01659C3126EAE6A90091E40C /* Unit1Tests.xctest */,
-				01659C3C26EAE6AA0091E40C /* Unit1UITests.xctest */,
+				01659C1B26EAE6A30091E40C /* Flixster.app */,
+				01659C3126EAE6A90091E40C /* FlixsterTests.xctest */,
+				01659C3C26EAE6AA0091E40C /* FlixsterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +134,9 @@
 				01659C2726EAE6A90091E40C /* Assets.xcassets */,
 				01659C2926EAE6A90091E40C /* LaunchScreen.storyboard */,
 				01659C2C26EAE6A90091E40C /* Info.plist */,
+				01B28F7726F41B190027B892 /* MovieDetailsViewController.swift */,
+				01B28F7926F4F5F00027B892 /* MovieGridViewController.swift */,
+				01B28F7B26F504BC0027B892 /* MovieGridCell.swift */,
 			);
 			path = Unit1;
 			sourceTree = "<group>";
@@ -170,16 +179,15 @@
 				192FC8414C6DDDE72AD09646 /* Pods-Unit1Tests.debug.xcconfig */,
 				B1CBC7C86BA4C523F612DDDE /* Pods-Unit1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01659C1A26EAE6A30091E40C /* Unit1 */ = {
+		01659C1A26EAE6A30091E40C /* Flixster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01659C4526EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1" */;
+			buildConfigurationList = 01659C4526EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Flixster" */;
 			buildPhases = (
 				E984DA2A4E93128A4F4C6241 /* [CP] Check Pods Manifest.lock */,
 				01659C1726EAE6A30091E40C /* Sources */,
@@ -191,17 +199,17 @@
 			);
 			dependencies = (
 			);
-			name = Unit1;
+			name = Flixster;
 			packageProductDependencies = (
 				0124016426EBD60400F673C2 /* AlamofireImage */,
 			);
 			productName = Unit1;
-			productReference = 01659C1B26EAE6A30091E40C /* Unit1.app */;
+			productReference = 01659C1B26EAE6A30091E40C /* Flixster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01659C3026EAE6A90091E40C /* Unit1Tests */ = {
+		01659C3026EAE6A90091E40C /* FlixsterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01659C4826EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1Tests" */;
+			buildConfigurationList = 01659C4826EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "FlixsterTests" */;
 			buildPhases = (
 				8959629638EF6956484C4DB7 /* [CP] Check Pods Manifest.lock */,
 				01659C2D26EAE6A90091E40C /* Sources */,
@@ -213,14 +221,14 @@
 			dependencies = (
 				01659C3326EAE6A90091E40C /* PBXTargetDependency */,
 			);
-			name = Unit1Tests;
+			name = FlixsterTests;
 			productName = Unit1Tests;
-			productReference = 01659C3126EAE6A90091E40C /* Unit1Tests.xctest */;
+			productReference = 01659C3126EAE6A90091E40C /* FlixsterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01659C3B26EAE6AA0091E40C /* Unit1UITests */ = {
+		01659C3B26EAE6AA0091E40C /* FlixsterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01659C4B26EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1UITests" */;
+			buildConfigurationList = 01659C4B26EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "FlixsterUITests" */;
 			buildPhases = (
 				268BBC49DBB0CBD016767C4F /* [CP] Check Pods Manifest.lock */,
 				01659C3826EAE6AA0091E40C /* Sources */,
@@ -233,9 +241,9 @@
 			dependencies = (
 				01659C3E26EAE6AA0091E40C /* PBXTargetDependency */,
 			);
-			name = Unit1UITests;
+			name = FlixsterUITests;
 			productName = Unit1UITests;
-			productReference = 01659C3C26EAE6AA0091E40C /* Unit1UITests.xctest */;
+			productReference = 01659C3C26EAE6AA0091E40C /* FlixsterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +268,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01659C1626EAE6A30091E40C /* Build configuration list for PBXProject "Unit1" */;
+			buildConfigurationList = 01659C1626EAE6A30091E40C /* Build configuration list for PBXProject "Flixster" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,9 +284,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01659C1A26EAE6A30091E40C /* Unit1 */,
-				01659C3026EAE6A90091E40C /* Unit1Tests */,
-				01659C3B26EAE6AA0091E40C /* Unit1UITests */,
+				01659C1A26EAE6A30091E40C /* Flixster */,
+				01659C3026EAE6A90091E40C /* FlixsterTests */,
+				01659C3B26EAE6AA0091E40C /* FlixsterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -418,10 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B28F7826F41B190027B892 /* MovieDetailsViewController.swift in Sources */,
 				01659C2326EAE6A30091E40C /* MoviesViewController.swift in Sources */,
 				01659C1F26EAE6A30091E40C /* AppDelegate.swift in Sources */,
 				0124016226EBBFBE00F673C2 /* MovieCell.swift in Sources */,
 				01659C2126EAE6A30091E40C /* SceneDelegate.swift in Sources */,
+				01B28F7A26F4F5F00027B892 /* MovieGridViewController.swift in Sources */,
+				01B28F7C26F504BC0027B892 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +457,12 @@
 /* Begin PBXTargetDependency section */
 		01659C3326EAE6A90091E40C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01659C1A26EAE6A30091E40C /* Unit1 */;
+			target = 01659C1A26EAE6A30091E40C /* Flixster */;
 			targetProxy = 01659C3226EAE6A90091E40C /* PBXContainerItemProxy */;
 		};
 		01659C3E26EAE6AA0091E40C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01659C1A26EAE6A30091E40C /* Unit1 */;
+			target = 01659C1A26EAE6A30091E40C /* Flixster */;
 			targetProxy = 01659C3D26EAE6AA0091E40C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -648,7 +659,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unit1.app/Unit1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flixster.app/Flixster";
 			};
 			name = Debug;
 		};
@@ -670,7 +681,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unit1.app/Unit1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flixster.app/Flixster";
 			};
 			name = Release;
 		};
@@ -717,7 +728,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01659C1626EAE6A30091E40C /* Build configuration list for PBXProject "Unit1" */ = {
+		01659C1626EAE6A30091E40C /* Build configuration list for PBXProject "Flixster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01659C4326EAE6AA0091E40C /* Debug */,
@@ -726,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01659C4526EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1" */ = {
+		01659C4526EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Flixster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01659C4626EAE6AA0091E40C /* Debug */,
@@ -735,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01659C4826EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1Tests" */ = {
+		01659C4826EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "FlixsterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01659C4926EAE6AA0091E40C /* Debug */,
@@ -744,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01659C4B26EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "Unit1UITests" */ = {
+		01659C4B26EAE6AA0091E40C /* Build configuration list for PBXNativeTarget "FlixsterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01659C4C26EAE6AA0091E40C /* Debug */,

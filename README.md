@@ -1,3 +1,23 @@
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+
+### App Walkthrough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
+
+<img src="https://giphy.com/gifs/H3lXs1XyWtLWHQ0u1a" width=250><br>
+
+### Notes
+Describe any challenges encountered while building the app.
+
 # Flix
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
@@ -21,8 +41,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 
-<img src="![ezgif-2-2efb56a4852d](https://user-images.githubusercontent.com/73133766/132913673-bd0bc67f-a06a-4c25-813d-0c425fc230a3.gif)
-" width=250><br>
+<img src="https://giphy.com/gifs/x5ptYAL3HZspKyEqYr" width=250><br>
 
 ### Notes
-I ran into some problems when dealing with the names of classes. I learned the importance of making sure every name is correct as a single letter can ruin everything.
+Describe any challenges encountered while building the app.
+
